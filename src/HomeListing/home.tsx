@@ -16,19 +16,19 @@ function Home() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/#">ABOUT</a>
+                                <a className="nav-link active" aria-current="page" href="/about">ABOUT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href="/#">SERVICES</a>
+                                <a className="nav-link active" href="/services">SERVICES</a>
                             </li>
                             <a className="navbar-brand d-none d-lg-block" href="/">
                                 <img src="/images/logo.svg" />
                             </a>
                             <li className="nav-item">
-                                <a className="nav-link active" href="/#">BLOG</a>
+                                <a className="nav-link active" href="/blog">BLOG</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" href='/#'>CONTACT</a>
+                                <a className="nav-link active" href='/contact'>CONTACT</a>
                             </li>
                         </ul>
                     </div>
