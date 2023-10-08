@@ -1,0 +1,95 @@
+/* YourPage.css */
+
+.page-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/Background.png'); /* Use the correct path to your image in the public folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .content {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set text color as needed */
+    /* Add any additional styles for your content here */
+  }
+
+  .smallLogo {
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .biglogo {
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .p1 {
+    font-family: "Papyrus", Fantasy;
+  }
+
+  /* styles.css */
+
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid #ffffff; /* You can change the border color */
+    border-radius: 10px; /* Adjust the border-radius to control the roundness of the button */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+    width: '300px';
+    /* Remove default button styles */
+    outline: none;
+    text-decoration: none;
+    font-family: "Papyrus", Fantasy;
+  }
+  
+  .transparent-button:hover {
+    background-color: #ffffff; /* Change the background color on hover */
+    color: #000000; /* Change text color on hover */
+  }
+  
+
+.social-icons {
+  width: 200px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 10px;
+  color: #fcfdfe; /* Set the color of the icons */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #000000; /* Change color on hover */
+}
