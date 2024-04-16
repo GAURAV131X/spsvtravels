@@ -52,3 +52,32 @@
   font-size: 16px;
     font-size: 4vw;
 }
+.sticky-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+  }
+  .sticky-icon img {
+    width: 60px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+  }
+  /* Add these styles to your CSS file (e.g., home.css) */
+.modal-content {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff; /* Set your desired background color */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  

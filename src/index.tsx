@@ -19,7 +19,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/home" Component={Home} />
-        <Route path="/" Component={LandingPage} />
+        <Route path="/" Component={Home} />
         <Route path="/contact" Component={Contact} />
         <Route path="/about" Component={About} />
         <Route path="/blog" Component={Blog} />

@@ -1,0 +1,96 @@
+const data = [
+    {
+      "name": "Bali",
+      "stay": "4N kuta",
+      "starting_from": "Bali Airport",
+      "hotel": "4 star",
+      "per_person_cost": "13999/-",
+      "inclusions": [
+        "4N Stay at 4* hotel with breakfast",
+        "Kintamani & Ubud Tour",
+        "Uluwatu Temple Tour",
+        "Watersports (Banana Boat, Flying Fish, Jet Ski)",
+        "Return Airport Transfers",
+        "All Tours and Transfers are on Private Basis",
+      ],
+    },
+
+    {
+      "name": "Bali",
+      "stay": "4N kuta",
+      "starting_from": "Bali Airport",
+      "hotel": "4 star",
+      "per_person_cost": "13999/-",
+      "inclusions": [
+        "4N Stay at 4* hotel with breakfast",
+        "Kintamani & Ubud Tour",
+        "Uluwatu Temple Tour",
+        "Watersports (Banana Boat, Flying Fish, Jet Ski)",
+        "Return Airport Transfers",
+        "All Tours and Transfers are on Private Basis",
+      ],
+    },
+    {
+      "name": "Bali",
+      "stay": "4N kuta",
+      "starting_from": "Bali Airport",
+      "hotel": "4 star",
+      "per_person_cost": "13999/-",
+      "inclusions": [
+        "4N Stay at 4* hotel with breakfast",
+        "Kintamani & Ubud Tour",
+        "Uluwatu Temple Tour",
+        "Watersports (Banana Boat, Flying Fish, Jet Ski)",
+        "Return Airport Transfers",
+        "All Tours and Transfers are on Private Basis",
+      ],
+    },
+    {
+      "name": "Bali",
+      "stay": "4N kuta",
+      "starting_from": "Bali Airport",
+      "hotel": "4 star",
+      "per_person_cost": "13999/-",
+      "inclusions": [
+        "4N Stay at 4* hotel with breakfast",
+        "Kintamani & Ubud Tour",
+        "Uluwatu Temple Tour",
+        "Watersports (Banana Boat, Flying Fish, Jet Ski)",
+        "Return Airport Transfers",
+        "All Tours and Transfers are on Private Basis",
+      ],
+    },
+    {
+      "name": "Bali",
+      "stay": "4N kuta",
+      "starting_from": "Bali Airport",
+      "hotel": "4 star",
+      "per_person_cost": "13999/-",
+      "inclusions": [
+        "4N Stay at 4* hotel with breakfast",
+        "Kintamani & Ubud Tour",
+        "Uluwatu Temple Tour",
+        "Watersports (Banana Boat, Flying Fish, Jet Ski)",
+        "Return Airport Transfers",
+        "All Tours and Transfers are on Private Basis",
+      ],
+    },
+    {
+      "name": "Bali",
+      "stay": "4N kuta",
+      "starting_from": "Bali Airport",
+      "hotel": "4 star",
+      "per_person_cost": "13999/-",
+      "inclusions": [
+        "4N Stay at 4* hotel with breakfast",
+        "Kintamani & Ubud Tour",
+        "Uluwatu Temple Tour",
+        "Watersports (Banana Boat, Flying Fish, Jet Ski)",
+        "Return Airport Transfers",
+        "All Tours and Transfers are on Private Basis",
+      ],
+    },
+    
+  ];
+  
+  export default data;
