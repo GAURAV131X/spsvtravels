@@ -85,7 +85,7 @@ function Home() {
                 alt="Card Image"
               />
               <div className="card-body">
-                <h5 className="card-title">{item.name}</h5>
+                <h5 className="card-title">{item.stay}</h5>
                 <p className="card-text">
                   {item.inclusions.map((inc, i) => (
                     <span key={i}>
