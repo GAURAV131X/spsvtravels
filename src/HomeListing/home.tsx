@@ -80,9 +80,13 @@ function Home() {
           <div key={index} className="col">
             <div className="card">
               <img
-                src="/images/home(1).png"
+                src={item.imageUrl}
                 className="card-img-top"
                 alt="Card Image"
+                style={{
+                  maxHeight: '300px'
+
+                }}
               />
               <div className="card-body">
                 <h5 className="card-title">{item.stay}</h5>
