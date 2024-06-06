@@ -7,12 +7,14 @@ import {
     faTwitter,
     faInstagram
   } from "@fortawesome/free-brands-svg-icons";
+import Header from '../header/header.module';
+import CarouselFade from '../Carousel/carousel.module';
 
 
 function LandingPage() {
     return (
         <>
-            <div className="page-container">
+            {/* <div className="page-container">
                 <div className="background-image">
                 </div>
                 <div className='smallLogo d-lg-none'>
@@ -35,11 +37,17 @@ function LandingPage() {
                     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram} size="2x" />
                     </a>
-                </div>
+                </div> */}
+                
+
+
+            {/* </div> */}
 
 
 
-            </div>
+
+            <Header />
+                <CarouselFade />
 
         </>
     )
