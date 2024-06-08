@@ -1,11 +1,12 @@
-import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import CarouselImage from '../Carousel/carouselImage.module';
-import './carousel.css'; 
+import CarouselImage from '../CarouselImage/carouselImage';
+import './mainCarousel.css'; 
 
-function CarouselFade() {
+function MainCarousel() {
   return (
-    <Carousel fade={true} interval={8000} pause={false}>
+    <Carousel fade={true} interval={5000} pause={false} style={{
+      width: '100%'
+    }}>
       <Carousel.Item>
         <CarouselImage src='/images/1.jpeg' text="First slide" />
         <Carousel.Caption>
@@ -45,4 +46,4 @@ function CarouselFade() {
   );
 }
 
-export default CarouselFade;
+export default MainCarousel;

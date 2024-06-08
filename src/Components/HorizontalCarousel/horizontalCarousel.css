@@ -1,0 +1,23 @@
+/* Carousel.css */
+.carousel-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carousel {
+  display: inline-flex;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  flex: 0 0 auto;
+  white-space: normal;
+}

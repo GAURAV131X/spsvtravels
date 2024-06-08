@@ -4,12 +4,11 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-const LandingPage = lazy(() => import("./LandingPage/landingPage"));
-const Home = lazy(() => import("./HomeListing/home"));
-const Contact = lazy(()=> import("./Contact/contact"));
-const About = lazy(()=> import("./About/about"));
-const Blog = lazy(()=> import("./Blog/blog"));
-const Services = lazy(()=> import("./Services/services"));
+const Home = lazy(() => import("./Pages/Home/home"));
+const Destination = lazy(() => import("./Pages/Destination/destination"));
+const Contact = lazy(()=> import("./Pages/Contact/contact"));
+const About = lazy(()=> import("./Pages/About/about"));
+const Blog = lazy(()=> import("./Pages/Blog/blog"));
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,12 +17,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/home" Component={Home} />
-        <Route path="/" Component={LandingPage} />
-        <Route path="/contact" Component={Contact} />
+      <Route path="/" Component={Home} />
+        <Route path="/home" Component={Home} />   
+        <Route path="/destinations" Component={Destination} />
         <Route path="/about" Component={About} />
+        <Route path="/contact" Component={Contact} />
         <Route path="/blog" Component={Blog} />
-        <Route path="/services" Component={Services}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

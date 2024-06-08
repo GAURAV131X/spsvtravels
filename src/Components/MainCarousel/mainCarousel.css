@@ -1,0 +1,8 @@
+.crousel-item{
+    opacity:0;
+    transition: opacity 2s !important;
+  }
+  .carousel-item.active{
+    opacity:1;
+    transition: opacity 2s !important;
+  }

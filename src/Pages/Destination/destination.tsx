@@ -1,12 +1,14 @@
-import React, { useState } from "react";
-import "./home.css";
-import data from "../data/data";
-import Footer from "../footer/footer";
+
+import { useState } from "react";
 import Modal from "react-modal";
+import Header from "../../Components/Header/header";
+import data from "../../Assets/data/data";
+import Footer from "../../Components/Footer/footer";
+
 
 Modal.setAppElement("#root");
 
-function Home() {
+function Destination() {
   const [showForm, setShowForm] = useState(false);
 
   const toggleForm = () => {
@@ -23,57 +25,7 @@ function Home() {
 
   return (
     <>
-      <div>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid">
-            <a className="navbar-brand d-lg-none" href="/">
-              <img src="/images/logo.svg" alt="Logo" />
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav mx-auto">
-                <li className="nav-item">
-                  <a
-                    className="nav-link active"
-                    aria-current="page"
-                    href="/about"
-                  >
-                    ABOUT
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link active" href="/services">
-                    SERVICES
-                  </a>
-                </li>
-                <a className="navbar-brand d-none d-lg-block" href="/">
-                  <img src="/images/logo.svg" alt="Logo" />
-                </a>
-                <li className="nav-item">
-                  <a className="nav-link active" href="/blog">
-                    BLOG
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link active" href="/contact">
-                    CONTACT
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
+      <Header / >
 
       <div className="row row-cols-1 row-cols-md-4 g-4 p-4">
         {data.map((item, index) => (
@@ -177,4 +129,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Destination;
